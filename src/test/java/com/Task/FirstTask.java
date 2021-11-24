@@ -38,12 +38,7 @@ WebDriver driver;
 	    btnlogin.click();
 	}
 
-	@Then("User validates the error message")
-	public void user_validates_the_error_message() {
-	    WebElement Autherror = driver.findElement(By.xpath("//div[@class='_9ay7']"));
-	    Assert.assertTrue("Auth error message is not displayed", Autherror.isDisplayed());
-	}
-
+	 
 }
 
 
